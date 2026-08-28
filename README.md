@@ -33,34 +33,10 @@ src/
 └── App.jsx              # Enrutamiento principal
 ```
 
-## 🚀 Cómo correrlo localmente
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/TU-USUARIO/barberia-web.git
-   cd barberia-web
-   ```
-
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-
-3. Crea un archivo `.env` en la raíz con tus credenciales de Supabase:
-   ```
-   VITE_SUPABASE_URL=tu_url_de_supabase
-   VITE_SUPABASE_ANON_KEY=tu_anon_key
-   ```
-
-4. Corre el proyecto en modo desarrollo:
-   ```bash
-   npm run dev
-   ```
-
 ## 🌐 Despliegue
 
 Este proyecto está pensado para desplegarse en [Vercel](https://vercel.com/), conectado directamente a este repositorio para despliegue automático en cada `push`.
 
 ## 📄 Licencia
-
+Desarrollad Por Silkey Dayara Ramos Guerra
 Proyecto privado de MOBB-DEEP. Todos los derechos reservados.
