@@ -17,7 +17,7 @@ function App() {
       <nav className="navbar">
         <div className="navbar-inner">
           <NavLink to="/" className="navbar-brand" onClick={() => setMenuAbierto(false)}>
-          { <img src="./src/img/logodeep.png" alt="Logo" className="logo" />/*<span>MOBB-DEEP</span> */}
+          {  <img src={logo} alt="Logo" className="logo" />/*<span>MOBB-DEEP</span> */}
           </NavLink>
 
           <button
