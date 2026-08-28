@@ -7,6 +7,7 @@ import Login from './pages/Login'
 import RutaProtegida from './RutaProtegida'
 import Footer from './Footer'
 import './App.css'
+import logo from "./src/img/logodeep.png"
 
 function App() {
   const [menuAbierto, setMenuAbierto] = useState(false)
