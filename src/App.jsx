@@ -6,6 +6,7 @@ import Admin from './pages/Admin'
 import Login from './pages/Login'
 import RutaProtegida from './RutaProtegida'
 import Footer from './Footer'
+import logo from './img/logodeep.png'
 import './App.css'
 
 
@@ -17,7 +18,7 @@ function App() {
       <nav className="navbar">
         <div className="navbar-inner">
           <NavLink to="/" className="navbar-brand" onClick={() => setMenuAbierto(false)}>
-          {  <img src={logo} alt="Logo" className="logo" />/*<span>MOBB-DEEP</span> */}
+          { <img src={logo} alt="Logo" className="logo" />/*<span>MOBB-DEEP</span> */}
           </NavLink>
 
           <button
